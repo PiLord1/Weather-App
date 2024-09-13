@@ -194,13 +194,7 @@ async function getWeatherForecast(location) {
             maxTempC.textContent = `${maxTempCText}`;
             maxminTempC.innerHTML += ` / ${minTempCText}`;
             dayCount++
-
         }
-
-
-
-        
-
     }
     catch(error) {
         console.error(error);
