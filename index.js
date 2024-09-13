@@ -9,13 +9,11 @@ const sevenDayContainer = document.querySelector('.seven-day-card-container');
 
 const API_KEY = '624040f5490c460793f62034241009';
 
-
 async function getWeatherForecast(location) {
     try {
         let API_LOC = `http://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${location}&days=7`;
         let response = await fetch(API_LOC);
         let weatherData = await response.json();
-        console.log(weatherData);
 
         currentWeatherContainer.innerHTML = '';
 
@@ -144,7 +142,6 @@ async function getWeatherForecast(location) {
             let sevenDayCard = document.createElement('div');
             sevenDayCard.setAttribute('class', 'seven-day-card');
             sevenDayContainer.append(sevenDayCard);
-
 
             let day = document.createElement('p');
             day.setAttribute('class', 'day');
