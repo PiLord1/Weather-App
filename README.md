@@ -5,7 +5,7 @@
 
 This Weather App provides current weather information, a forecast for the day, air conditions, and a 7-day weather forecast. The app fetches data from the [FreeWeather API](https://www.weatherapi.com/) and displays it in a user-friendly format.
 
-**View project here**: https://pilord1.github.io/Weather-App
+**View project here**: https://jeanberin.github.io/Weather-App
 
 ## Features
 
